@@ -1,0 +1,75 @@
+
+.nhp_02_showcase
+{
+    background-image: url("/IMG/nhp_01.png");
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    min-height: 95vh;
+}
+
+.nhp_01_box {
+    width: 100%;
+    height: 90px;
+    color: black;
+    transition: all 0.8s;
+    background: linear-gradient(45deg, #9c8cd4, #e9bbb6);
+    background-attachment: fixed;
+    
+    
+}
+
+.nhp_01_box .nhp_01_navbar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.nhp_01_box .nhp_01_navbar img{
+    position: relative;
+    width:120px ;
+    height:80px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nhp_01_box .nhp_01_navbar .nhp_01_links {
+    display: flex;
+    margin-left: 48%;
+    font-size: 25px;
+}
+
+.nhp_01_box .nhp_01_navbar .nhp_01_links li {
+    display: block;
+    padding: 5px 15px;
+    transition: border-bottom 0.5s;
+    margin-top: 20px;
+}
+
+.nhp_01_box .nhp_01_navbar .nhp_01_links li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.nhp_01_box .nhp_01_navbar .nhp_01_links li a:hover,
+.nhp_01_box .nhp_01_navbar .nhp_01_links li a:active{
+    border-bottom: 2px solid black;
+}
+
+.nhp_01_box  .nhp_01_navbar h1 {
+    padding: 20px 0;
+    text-align: left;
+    font-size: 35px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}

@@ -1,0 +1,105 @@
+/*font dùng chung */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+/*font-family: 'Nunito Sans', sans-serif;*/
+
+/*tiểu chuẩn đặt tên class và id : tên viết tắt_số thứ tự*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;  
+    box-sizing: border-box;
+   
+}
+/*an thanh truot*/
+body::-webkit-scrollbar { 
+    display: none; 
+}
+    
+/*nmn_01_*/
+
+.nmn_01 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #22046b, #e14e42);
+    color: #fff;
+    position: relative;
+    min-height: 80vh;
+}
+
+.nmn_01_row {
+    width: 85%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nmn_01_col {
+    margin: 10px 0;
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 80%;
+    position: relative;
+   
+}
+
+.nmn_01_textbox {
+    max-width: 700px;
+    margin-top: 80px;
+}
+
+.nmn_01_textbox h4, h5 {
+    color: blueviolet;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.nmn_01_text-event {
+    padding-top: 58px;
+    margin-top: 50px;
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    height: 250px;
+    border-radius: 4%;
+    background: linear-gradient(45deg, #341386, #ee6559);
+    font-weight:bolder;
+}
+
+.nmn_01_gallery-box {
+    max-width: 500px;
+    position: relative;
+    margin-left: 120px;
+  margin-top: 40px;
+    
+}
+
+.nmn_01_gallery-box img {
+    width: 80%;
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+
+.end{
+    width: 100%;
+    height: 40px;
+    color: black;
+    transition: all 0.8s;
+    background: linear-gradient(45deg, #9785d8, #b68c87);
+    background-attachment: fixed;
+}
+.end p{
+    text-align: center;
+    font-size: 19px;
+}
+
+
